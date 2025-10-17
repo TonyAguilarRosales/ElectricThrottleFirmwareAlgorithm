@@ -40,16 +40,12 @@ bool implausibility = true;
 
 int main() {
    while(true){
-      //read inputs immedieately 
-      //check brake for ready to drive pressure
-      //check start_button state
-      //check TS sate
-      //if all are optimal set ready to drive to true 
+      //if not ready to drive read brake + start button + TS_active
       if(!rtd){
          float brake_voltage = B_APPS0.read() * 3.3; //reads voltage from PA_5
          float brake_percent = linearPedalMapping(brake_voltage, B_APPS0_MIN_VOLT, B_APPS0_MAX_VOLT);
          //returns a percentage based on min and max voltages for brake switch
-
+         //if all 3 conditions are met we are ready to drive
          if((brake_percent >= 80.0) && START_BUTTON.read() && TS_ACTIVE.read()){ 
             rtd = true;
             buzzer = 1; //turn on buzzer
