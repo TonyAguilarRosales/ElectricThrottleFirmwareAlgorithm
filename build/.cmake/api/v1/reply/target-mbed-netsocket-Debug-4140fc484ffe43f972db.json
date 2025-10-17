@@ -1,0 +1,58 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"mbed-os/connectivity/netsocket/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "mbed-netsocket::@9122eda626176ae6dbbb",
+	"name" : "mbed-netsocket",
+	"paths" : 
+	{
+		"build" : "mbed-os/connectivity/netsocket",
+		"source" : "mbed-os/connectivity/netsocket"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "mbed-os/connectivity/netsocket/tests/TESTS/common/greentea_network_stack_nanostack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mbed-os/connectivity/netsocket/tests/TESTS/common/greentea_network_stack_lwipstack.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

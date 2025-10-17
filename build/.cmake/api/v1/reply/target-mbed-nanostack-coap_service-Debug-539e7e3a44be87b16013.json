@@ -1,0 +1,802 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "mbed-os/connectivity/nanostack/coap-service/libmbed-nanostack-coap_service.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"mbed-os/connectivity/nanostack/coap-service/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-psabi -Wno-packed-bitfield-compat -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -fomit-frame-pointer -g3 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -std=gnu11"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "C:/Users/anty0/Projects/my-mbed-app/build/mbed-os/generated-headers/mbed-target-config.h"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "CY_RTOS_AWARE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_COAP_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_EVENTS_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_MBEDTLS_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_NANOSTACK_LIBSERVICE_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_RTOS_API_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_RTOS_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_MINIMAL_PRINTF"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_RTOS_SINGLE_THREAD"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_TRAP_ERRORS_ENABLED=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "TARGET_NAME=NUCLEO_L432KC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "TOOLCHAIN_GCC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "TOOLCHAIN_GCC_ARM"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__CORTEX_M4"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__FPU_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__NEWLIB_NANO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/coap-service/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/coap-service/./coap-service"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/coap-service/./source/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/nanostack-libservice/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/nanostack-libservice/./mbed-client-libservice"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/nanostack-libservice/./mbed-client-libservice/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/build/mbed-os/generated-headers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/RTE/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include/drivers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include/drivers/interfaces"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/usb/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/usb/include/usb"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/include/hal"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/cxxsupport/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/mbed-trace/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/mbed-trace/include/mbed-trace"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/source/minimal-printf/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/source/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include/platform/internal"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include/rtos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include/rtos/internal"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./source"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include/events"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include/events/internal"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Config"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/rtos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/TARGET_NUCLEO_L432KC/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/CMSIS"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/TARGET_CORTEX_M/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./Bootstraps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./Fragmentation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./IPHC_Decode"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./MAC"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./Mesh"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./ND"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./NVM"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./Thread"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./ws"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/BorderRouter/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/DHCPv6_Server/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/DHCPv6_client/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/./IEEE802_15_4"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/./virtual_rf"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MLE/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MPL/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/./Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./Common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./PANA"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./TLS"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./eapol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./kmp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/eap_tls_sec_prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/fwh_sec_prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/gkh_sec_prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/key_sec_prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/radius_sec_prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/tls_sec_prot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./Neighbor_cache"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./Trickle"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./blacklist"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./etx"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./fhss"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./fnv_hash"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./hmac"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./ieee_802_11"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./load_balance"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mac_neighbor_table"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/port"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/port/compiler"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/port/cpu"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services/dns"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services/mdns"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services/poll"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services/serial"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/stack"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mle_service"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./nd_proxy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./nist_aes_kw"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./pan_blacklist"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./random_early_detection"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./utils"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./whiteboard"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/configs/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/configs/./base"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/ipv6_stack/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libDHCPv6/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/./src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/./nanostack"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/./nanostack/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/./source"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack-eventloop/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack-eventloop/./nanostack-event-loop"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack-eventloop/./nanostack-event-loop/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack-eventloop/./source"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/randlib/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/randlib/include/mbed-client-randlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/randlib/include/mbed-client-randlib/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/./include/mbedtls"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/./platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/./platform/inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/drivers/mbedtls/TARGET_STM/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/mbed-coap/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/mbed-coap/./mbed-coap"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/mbed-coap/./source/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "mbed-nanostack-sal_stack::@50809cfdd1c95175c462"
+		}
+	],
+	"id" : "mbed-nanostack-coap_service::@474193d6c5ac17f4f78e",
+	"name" : "mbed-nanostack-coap_service",
+	"nameOnDisk" : "libmbed-nanostack-coap_service.a",
+	"paths" : 
+	{
+		"build" : "mbed-os/connectivity/nanostack/coap-service",
+		"source" : "mbed-os/connectivity/nanostack/coap-service"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/coap-service/source/coap_connection_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/coap-service/source/coap_message_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/coap-service/source/coap_security_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/coap-service/source/coap_service_api.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

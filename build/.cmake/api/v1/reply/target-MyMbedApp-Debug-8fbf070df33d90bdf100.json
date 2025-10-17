@@ -1,0 +1,2419 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MyMbedApp.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"mbed_set_post_build",
+			"mbed_configure_memory_map",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"mbed-os/tools/cmake/mbed_target_functions.cmake",
+			"mbed-os/tools/cmake/toolchains/GCC_ARM.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 158,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 182,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 123,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-psabi -Wno-packed-bitfield-compat -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -fomit-frame-pointer -g3 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wno-register"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "C:/Users/anty0/Projects/my-mbed-app/build/mbed-os/generated-headers/mbed-target-config.h"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "CY_RTOS_AWARE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBED_CONF_EVENTS_PRESENT=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBED_CONF_NANOSTACK_LIBSERVICE_PRESENT=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBED_CONF_RTOS_API_PRESENT=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBED_CONF_RTOS_PRESENT=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBED_DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBED_MINIMAL_PRINTF"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBED_RTOS_SINGLE_THREAD"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "MBED_TRAP_ERRORS_ENABLED=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TARGET_NAME=NUCLEO_L432KC"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TOOLCHAIN_GCC"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "TOOLCHAIN_GCC_ARM"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__CORTEX_M4"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__FPU_PRESENT=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "__NEWLIB_NANO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/TARGET_NUCLEO_L432KC/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/build/mbed-os/generated-headers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/RTE/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include/drivers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include/drivers/interfaces"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/usb/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/usb/include/usb"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/include/hal"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/cxxsupport/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/mbed-trace/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/mbed-trace/include/mbed-trace"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/source/minimal-printf/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/source/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include/platform"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include/platform/internal"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include/rtos"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include/rtos/internal"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./source"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include/events"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include/events/internal"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/nanostack-libservice/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/nanostack-libservice/./mbed-client-libservice"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Config"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include1"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/rtos/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/CMSIS"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/Legacy"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/TARGET_CORTEX_M/Include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "mbed-os::@ac64f92b8fa88bef9f57"
+		}
+	],
+	"id" : "MyMbedApp::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-psabi -Wno-packed-bitfield-compat -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -fomit-frame-pointer -g3 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Wno-register",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -Wl,--end-group -specs=nosys.specs -Wl,--cref",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-T",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:/Users/anty0/Projects/my-mbed-app/build/mbed-nucleo-l432kc.link_script.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,-Map=C:/Users/anty0/Projects/my-mbed-app/build/MyMbedApp.elf.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,main",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,_malloc_r",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,_free_r",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,_realloc_r",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,_memalign_r",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,_calloc_r",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,exit",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,atexit",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,-n",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "--specs=nano.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,printf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,sprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,snprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,vprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,vsprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,vsnprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,fprintf",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--wrap,vfprintf",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MyMbedApp",
+	"nameOnDisk" : "MyMbedApp.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/TARGET_NUCLEO_L432KC/PeripheralPins.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/TOOLCHAIN_GCC_ARM/startup_stm32l432xx.S.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/system_clock.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/analogin_device.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/analogout_device.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/flash_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/gpio_irq_device.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/i2c_device.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/pwmout_device.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/serial_device.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/spi_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/USBPhy_STM32.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/analogin_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/analogout_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/can_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/gpio_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/gpio_irq_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/hal_tick_overrides.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/i2c_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/lp_ticker.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/mbed_crc_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/mbed_overrides.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/ospi_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/pinmap.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/port_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/pwmout_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/qspi_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/reset_reason.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/rtc_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/serial_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/sleep.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/stm_spi_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/trng_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/us_ticker.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/watchdog_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/stm_dma_utils.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/TARGET_CORTEX_M/Source/mbed_tz_context.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/Legacy/stm32l4xx_hal_can_legacy.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_adc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_can.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_comp.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_cortex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_crc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_crc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_cryp.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_cryp_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dac.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dac_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dcmi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dfsdm.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dfsdm_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma2d.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dma_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_dsi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_exti.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_firewall.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_flash_ramfunc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_gfxmmu.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_gpio.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_hash.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_hash_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_hcd.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_i2c_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_irda.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_iwdg.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_lcd.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_lptim.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_ltdc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_ltdc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_mmc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_mmc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_nand.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_nor.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_opamp.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_opamp_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_ospi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_pcd.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_pcd_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_pka.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_pssi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_pwr_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_qspi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_rcc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_rng.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_rng_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_rtc_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_sai.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_sai_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_sd.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_sd_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_smartcard.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_smartcard_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_smbus.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_smbus_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_spi_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_sram.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_swpmi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_tim_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_tsc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_uart_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_usart.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_usart_ex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_wwdg.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_adc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_comp.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_crc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_crs.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_dac.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_dma2d.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_exti.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_fmc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_gpio.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_i2c.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_lptim.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_lpuart.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_opamp.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_pka.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_pwr.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rcc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rng.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_rtc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_sdmmc.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_spi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_swpmi.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_usart.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_usb.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_utils.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/system_stm32l4xx.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/AnalogIn.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/AnalogOut.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/BufferedSerial.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/BusIn.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/BusInOut.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/BusOut.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/CAN.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/DigitalIn.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/DigitalInOut.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/DigitalOut.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/FlashIAP.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/I2C.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/I2CSlave.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/InterruptIn.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/MbedCRC.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/OSPI.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/PortIn.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/PortInOut.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/PortOut.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/PwmOut.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/QSPI.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/ResetReason.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/SPI.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/SPISlave.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/SerialBase.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/SerialWireOutput.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/Ticker.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/Timeout.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/Timer.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/TimerEvent.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/UnbufferedSerial.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/drivers/source/Watchdog.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/usb/source/mbed_usb_phy.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/LowPowerTickerWrapper.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_compat.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_critical_section_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_flash_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_gpio.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_gpio_irq.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_itm_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_lp_ticker_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_lp_ticker_wrapper.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_pinmap_common.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_pinmap_default.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_ticker_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mbed_us_ticker_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/static_pinmap.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mpu/mbed_mpu_v7m.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/hal/source/mpu/mbed_mpu_v8m.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/cxxsupport/mstd_mutex.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/mbed-trace/source/mbed_trace.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/TARGET_CORTEX_M/TOOLCHAIN_GCC/except.S.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/TARGET_CORTEX_M/mbed_fault_handler.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/minimal-printf/mbed_printf_armlink_overrides.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/minimal-printf/mbed_printf_implementation.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/minimal-printf/mbed_printf_wrapper.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/ATCmdParser.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/CThunkBase.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/CriticalSectionLock.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/DeepSleepLock.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/FileBase.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/FileHandle.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/FilePath.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/FileSystemHandle.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/SingletonPtr.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/Stream.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/SysTimer.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_alloc_wrappers.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_application.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_assert.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_atomic_impl.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_board.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_critical.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_error.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_error_hist.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_interface.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_mem_trace.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_mktime.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_mpu_mgmt.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_os_timer.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_poll.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_power_mgmt.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_retarget.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_rtc_time.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_sdk_boot.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_semihost_api.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_stats.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_thread.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/mbed_wait_api_no_rtos.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/platform/source/newlib_nano_malloc_workaround.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/rtos/source/EventFlags.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/rtos/source/Kernel.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/rtos/source/Mutex.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/rtos/source/Semaphore.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/rtos/source/ThisThread.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/rtos/source/ConditionVariable.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/rtos/source/Thread.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/events/source/EventQueue.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/events/source/equeue.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/events/source/equeue_mbed.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/events/source/equeue_posix.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/events/source/mbed_shared_queues.cpp.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/connectivity/libraries/nanostack-libservice/source/libBits/common_functions.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/connectivity/libraries/nanostack-libservice/source/libip6string/ip6tos.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/TOOLCHAIN_GCC/TARGET_RTOS_M4_M7/irq_cm4f.S.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Config/RTX_Config.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Library/cmsis_os1.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_delay.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evflags.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_evr.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_kernel.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_lib.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_memory.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mempool.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_msgqueue.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_mutex.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_semaphore.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_system.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_thread.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source/rtx_timer.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/Source/os_systick.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/CMSIS_5/CMSIS/RTOS2/Source/os_tick_ptim.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/device/rtos/TOOLCHAIN_GCC_ARM/mbed_boot_gcc_arm.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/device/rtos/source/mbed_boot.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/device/rtos/source/mbed_rtos_rtx.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/device/rtos/source/mbed_rtx_handlers.c.obj",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/mbed-os/CMakeFiles/mbed-os.dir/cmsis/device/rtos/source/mbed_rtx_idle.cpp.obj",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

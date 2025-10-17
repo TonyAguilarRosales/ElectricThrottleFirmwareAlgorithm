@@ -1,0 +1,6 @@
+echo "mbed-os/" > .gitignore
+echo "build/" >> .gitignore
+echo "BUILD/" >> .gitignore
+echo "*.bin" >> .gitignore
+echo "*.elf" >> .gitignore
+echo "*.hex" >> .gitignore

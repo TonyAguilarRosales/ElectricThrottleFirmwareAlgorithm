@@ -1,0 +1,2905 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/libmbed-nanostack-sal_stack.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/BorderRouter/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/DHCPv6_Server/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/DHCPv6_client/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MLE/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MPL/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/configs/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/ipv6_stack/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libDHCPv6/CMakeLists.txt",
+			"mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 4,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 4,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 4,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 4,
+				"parent" : 15
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 4,
+				"parent" : 17
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 4,
+				"parent" : 19
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 4,
+				"parent" : 21
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 4,
+				"parent" : 23
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 12,
+				"line" : 4,
+				"parent" : 25
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 4,
+				"parent" : 27
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 14,
+				"line" : 4,
+				"parent" : 29
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 15,
+				"line" : 4,
+				"parent" : 31
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 16,
+				"line" : 4,
+				"parent" : 33
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 17,
+				"line" : 4,
+				"parent" : 35
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 9,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 10,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 11,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 9,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 10,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 9,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 21,
+				"parent" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 38,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 9,
+				"parent" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 16,
+				"line" : 9,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 17,
+				"line" : 10,
+				"parent" : 35
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-psabi -Wno-packed-bitfield-compat -fmessage-length=0 -fno-exceptions -ffunction-sections -fdata-sections -funsigned-char -fomit-frame-pointer -g3 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -std=gnu11"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "C:/Users/anty0/Projects/my-mbed-app/build/mbed-os/generated-headers/mbed-target-config.h"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "CY_RTOS_AWARE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_COAP_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_EVENTS_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_MBEDTLS_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_NANOSTACK_LIBSERVICE_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_RTOS_API_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_CONF_RTOS_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_MINIMAL_PRINTF"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_RTOS_SINGLE_THREAD"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MBED_TRAP_ERRORS_ENABLED=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "TARGET_NAME=NUCLEO_L432KC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "TOOLCHAIN_GCC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "TOOLCHAIN_GCC_ARM"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__CORTEX_M4"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__FPU_PRESENT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__NEWLIB_NANO"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./Bootstraps"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./Fragmentation"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./IPHC_Decode"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./MAC"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./Mesh"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./ND"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./NVM"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./Thread"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/./ws"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/BorderRouter/."
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/."
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/./include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/DHCPv6_Server/."
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/DHCPv6_client/."
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/."
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/./IEEE802_15_4"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/./virtual_rf"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MLE/."
+				},
+				{
+					"backtrace" : 20,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MPL/."
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/."
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/./Include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/."
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/."
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./Common"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./PANA"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./TLS"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./eapol"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./kmp"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/eap_tls_sec_prot"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/fwh_sec_prot"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/gkh_sec_prot"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/key_sec_prot"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/radius_sec_prot"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/./protocols/tls_sec_prot"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/."
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./Neighbor_cache"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./Trickle"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./blacklist"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./etx"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./fhss"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./fnv_hash"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./hmac"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./ieee_802_11"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./load_balance"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mac_neighbor_table"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/port"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/port/compiler"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/port/cpu"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services/dns"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services/mdns"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services/poll"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/services/serial"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mdns/fnet/fnet_stack/stack"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./mle_service"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./nd_proxy"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./nist_aes_kw"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./pan_blacklist"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./random_early_detection"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./utils"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/./whiteboard"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/configs/."
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/configs/./base"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/ipv6_stack/."
+				},
+				{
+					"backtrace" : 34,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libDHCPv6/."
+				},
+				{
+					"backtrace" : 36,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/."
+				},
+				{
+					"backtrace" : 36,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/./src"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/."
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/./nanostack"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/./nanostack/platform"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack/./source"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/nanostack-libservice/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/nanostack-libservice/./mbed-client-libservice"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/nanostack-libservice/./mbed-client-libservice/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/build/mbed-os/generated-headers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/RTE/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include/drivers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/drivers/./include/drivers/interfaces"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/usb/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/usb/include/usb"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/hal/include/hal"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/cxxsupport/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/mbed-trace/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/mbed-trace/include/mbed-trace"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/source/minimal-printf/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/source/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/include/platform/internal"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include/rtos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./include/rtos/internal"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/rtos/./source"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include/events"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/events/./include/events/internal"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Config"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include1"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Source"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/device/rtos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/TARGET_NUCLEO_L432KC/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L432xC/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/CMSIS"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/Legacy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/cmsis/CMSIS_5/CMSIS/TARGET_CORTEX_M/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack-eventloop/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack-eventloop/./nanostack-event-loop"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack-eventloop/./nanostack-event-loop/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/sal-stack-nanostack-eventloop/./source"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/randlib/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/randlib/include/mbed-client-randlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/platform/randlib/include/mbed-client-randlib/platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/./include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/./include/mbedtls"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/./platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/mbedtls/./platform/inc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/drivers/mbedtls/TARGET_STM/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/coap-service/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/coap-service/./coap-service"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/nanostack/coap-service/./source/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/mbed-coap/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/mbed-coap/./mbed-coap"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/anty0/Projects/my-mbed-app/mbed-os/connectivity/libraries/mbed-coap/./source/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				223,
+				224,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "mbed-randlib::@2b28d451a565226a12b1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mbed-nanostack-sal_stack-event_loop::@257c154d96c61dcd3c6f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mbed-mbedtls::@19319a0e8fef5273a531"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mbed-coap::@46eea39495881182a646"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mbed-nanostack-libservice::@a51ec43bfa750d3d4e2b"
+		}
+	],
+	"id" : "mbed-nanostack-sal_stack::@50809cfdd1c95175c462",
+	"name" : "mbed-nanostack-sal_stack",
+	"nameOnDisk" : "libmbed-nanostack-sal_stack.a",
+	"paths" : 
+	{
+		"build" : "mbed-os/connectivity/nanostack/sal-stack-nanostack",
+		"source" : "mbed-os/connectivity/nanostack/sal-stack-nanostack"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				223,
+				224,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				222,
+				225
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/adaptation_interface.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Bootstraps/Generic/network_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Bootstraps/Generic/protocol_6lowpan.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Bootstraps/Generic/protocol_6lowpan_bootstrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Bootstraps/Generic/protocol_6lowpan_interface.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Fragmentation/cipv6_fragmenter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/IPHC_Decode/6lowpan_iphc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/IPHC_Decode/iphc_compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/IPHC_Decode/iphc_decompress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/IPHC_Decode/lowpan_context.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/beacon_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mac_data_poll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mac_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mac_ie_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mac_pairwise_key.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mac_response_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Mesh/mesh.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ND/nd_router_object.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/NVM/nwk_nvm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_bbr_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_bbr_commercial.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_beacon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_bootstrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_border_router_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_ccm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_commissioning_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_commissioning_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_dhcpv6_server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_diagnostic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_discovery.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_host_bootstrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_joiner_application.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_leader_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_lowpower_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_lowpower_private_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_management_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_management_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_management_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_management_server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_mdns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_meshcop_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_mle_message_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_nd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_neighbor_class.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_net_config_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_network_data_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_network_data_storage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_network_synch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_nvm_store.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_resolution_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_resolution_server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_router_bootstrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_routing.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_test_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bbr_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap_6lbr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap_6ln.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap_6lr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap_ffn.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_cfg_settings.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_auth_relay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_pdu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_relay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_eapol_relay_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_empty_functions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_ie_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_llc_data_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_management_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_mpx_header.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_neighbor_class.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_auth.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_controller.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_key_storage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_nvm_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_nvm_store.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_supp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_timers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_phy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_stats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_test_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 39,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/BorderRouter/border_router.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6_prefix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6_radv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/ipv6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/ipv6_flow.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/ipv6_fragmentation.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/ipv6_resolution.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/mld.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/tcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Common_Protocols/udp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/buffer_dyn.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/ns_address_internal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/ns_monitor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/ns_socket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Core/sockbuf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/DHCPv6_Server/DHCPv6_Server_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 43,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/DHCPv6_client/dhcpv6_client_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/rf_driver_storage.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_cca_threshold.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_fhss_callbacks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_filter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_header_helper_functions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_indirect_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_mcps_sap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_mlme.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_mode_switch.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_pd_sap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_security_mib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/mac_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/IEEE802_15_4/sw_mac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/ethernet/ethernet_mac_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/serial/serial_mac_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/virtual_rf/virtual_rf_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MAC/virtual_rf/virtual_rf_driver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MLE/mle.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 45,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MLE/mle_tlv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 46,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/MPL/mpl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 47,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/protocol_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 47,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/protocol_core_sleep.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 47,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/protocol_stats.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 47,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/protocol_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/rpl_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/rpl_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/rpl_downward.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/rpl_mrhof.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/rpl_objective.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/rpl_of0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/rpl_policy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/RPL/rpl_upward.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/Common/security_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/PANA/eap_protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/PANA/pana.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/PANA/pana_avp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/PANA/pana_client.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/PANA/pana_eap_header.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/PANA/pana_header.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/PANA/pana_relay_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/PANA/pana_server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/TLS/tls_ccm_crypt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/TLS/tls_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/eapol/eapol_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/eapol/kde_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_addr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_eapol_pdu_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/kmp/kmp_socket_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_certs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_keys.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/sec_prot_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/eap_tls_sec_prot/auth_eap_tls_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/eap_tls_sec_prot/eap_tls_sec_prot_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/eap_tls_sec_prot/radius_eap_tls_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/eap_tls_sec_prot/supp_eap_tls_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/fwh_sec_prot/auth_fwh_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/fwh_sec_prot/supp_fwh_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/gkh_sec_prot/auth_gkh_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/gkh_sec_prot/supp_gkh_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/key_sec_prot/key_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/msg_sec_prot/msg_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/radius_sec_prot/avp_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/radius_sec_prot/radius_client_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/tls_sec_prot/tls_sec_prot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Security/protocols/tls_sec_prot/tls_sec_prot_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/CCM_lib/ccm_security.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/CCM_lib/mbedOS/aes_mbedtls_adapter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/Neighbor_cache/neighbor_cache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/SHA256_Lib/ns_sha256.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/SHA256_Lib/shalib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/Trickle/trickle.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/blacklist/blacklist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/etx/etx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/channel_functions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/channel_list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/fhss.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/fhss_channel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/fhss_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/fhss_configuration_interface.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/fhss_statistics.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/fhss_test_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/fhss_ws.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fhss/fhss_ws_empty_functions.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/fnv_hash/fnv_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/hmac/hmac_md.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/ieee_802_11/ieee_802_11.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/load_balance/load_balance.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mac_neighbor_table/mac_neighbor_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mdns/ns_fnet_events.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mdns/ns_fnet_port.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mdns/ns_mdns_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mdns/fnet/fnet_stack/services/mdns/fnet_mdns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mdns/fnet/fnet_stack/services/poll/fnet_poll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mdns/fnet/fnet_stack/stack/fnet_stdlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mle_service/mle_service.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mle_service/mle_service_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mle_service/mle_service_frame_count.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mle_service/mle_service_interface.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/mle_service/mle_service_security.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/nd_proxy/nd_proxy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/nist_aes_kw/nist_aes_kw.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/pan_blacklist/pan_blacklist.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/random_early_detection/random_early_detection.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/utils/isqrt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/utils/ns_conf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/utils/ns_crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/utils/ns_file_system.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/utils/ns_time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/Service_Libs/whiteboard/whiteboard.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/ipv6_stack/ipv6_routing_table.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/ipv6_stack/protocol_ipv6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libDHCPv6/dhcp_service_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6_server.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6_vendordata.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/multicast_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_6lowpan_parameter_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_dns.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_dns_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_ipv6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_load_balance.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_load_balance_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_mle.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_rpl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_short_address_extension.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/net_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/ns_net.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "mbed-os/connectivity/nanostack/sal-stack-nanostack/source/libNET/src/socket_api.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

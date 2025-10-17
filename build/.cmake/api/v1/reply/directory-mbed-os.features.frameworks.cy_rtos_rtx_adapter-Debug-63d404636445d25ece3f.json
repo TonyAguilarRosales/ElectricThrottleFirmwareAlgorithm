@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mbed-os/features/frameworks/cy_rtos_rtx_adapter",
+		"source" : "mbed-os/features/frameworks/cy_rtos_rtx_adapter"
+	}
+}

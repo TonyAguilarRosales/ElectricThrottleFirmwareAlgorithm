@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mbed-os/storage/blockdevice/COMPONENT_I2CEE",
+		"source" : "mbed-os/storage/blockdevice/COMPONENT_I2CEE"
+	}
+}
